@@ -1,0 +1,22 @@
+29 Nov - 3:30 P.M. - Took inputs from the user s, l, and number of cycles and computed c.
+
+29 Nov - 4:45 P.M. - Computed offset size, index size, and tag size.
+
+1 Dec - 9:00 P.M. - created a function that creates the cache table which includes all possible combinations of index and offset and initialized all the valid bit to zero, and the tag to empty string as the cache is assumed to be empty at the beginning.
+
+1 Dec - 10:00 P.M. - Fixed a bug in cache creation (made all the possible combinations of equal bit size).
+
+2 Dec - 12:00 P.M. - Created a function the does cache placement and replacement. 
+
+2 Dec - 1:00 P.M. - Checked when the valid bit in the corresponding place in the cache is zero, then  
+                    1. incremented the miss and number of accesses
+                    2. changed the valid bit to one
+                    3. changed the tag from empty string to its new value
+
+3 Dec - 2:15 P.M. - Fixed a bug in the cache tag update before Maya implemented the GUI
+
+
+6 Dec - 6:00 P.M. - Worked of editing the cache placement with Maya to implement the cache misses and hits
+
+7 Dec - 5:00 P.M. - Calculated hit ratio and miss ratio
+
